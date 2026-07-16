@@ -109,8 +109,8 @@ cd ~/work/HttpArena
 
 ## Versioning + apples-to-apples
 
-The Dockerfile pins `blackbull[compression]` to an explicit PyPI
-version (currently `0.33.0`).  Bump the pin in lockstep with the
+`requirements.txt` pins `blackbull[compression]` to an explicit PyPI
+version (currently `0.54.0`).  Bump the pin in lockstep with the
 upstream release whose behaviour you intend the container to
 exercise.
 
